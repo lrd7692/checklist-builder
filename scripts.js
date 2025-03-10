@@ -249,6 +249,11 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><input type="checkbox" name="resetdate"><label for="resetdate">Reset Date</label></li>
         </ul>
       </form>
+      <form>
+        <ul>
+          <li><input type="checkbox" name="pmptms"><label for="pmptms">Planned Maintenance Performed to Manufacturer's Specifications</label></li>
+        </ul>
+      </form>
       <textarea class="comments" name="comments" placeholder="Comments"></textarea>
       <p class="finalizeclose">^</p>
     </section>
@@ -283,6 +288,11 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><input type="checkbox" name="batteries"><label for="batteries">Batteries (24 Mo.)</label></li>
           <li><input type="checkbox" name="diagnosticsoftware"><label for="diagnosticsoftware">Diagnostic Software</label></li>
           <li><input type="checkbox" name="electricalsafety"><label for="electricalsafety">Electrical Safety (6 Mo.)</label></li>
+        </ul>
+      </form>
+      <form>
+        <ul>
+          <li><input type="checkbox" name="pmptms"><label for="pmptms">Planned Maintenance Performed to Manufacturer's Specifications</label></li>
         </ul>
       </form>
       <textarea class="comments" name="comments" placeholder="Comments"></textarea>
