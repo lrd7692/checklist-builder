@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Checklist Builder</title>
+    <script src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Please finalize the checklist.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Metropolitan Medical Planned Maintanence Checklist</h1>
+      <h2>
+        Name: <span id="finalizename" class="title"><input id="inputname" type="text" name="inputname"></span>
+        Agreement Type: <span id="finalizeagreementtype" class="title"><input id="inputagreementtype" type="text"name="inputagreementtype"></span>
+        Rep: <span id="finalizerep" class="title"><input id="inputrep" type="text"name="inputrep"></span>
+      </h2>
+      <ul id="finalizemenu">
+        <li id="gepm" title="GE / Datex-Ohmeda PM">GEPM</li>
+        <li id="drpm" title="Drager PM">DRPM</li>
+        <li id="vtpm" title="Ventilator PM">VTPM</li>
+        <li id="gnpm" title="Generic PM">GNPM</li>
+        <li id="vca" title="Vapor Concentration Analysis">VCA</li>
+        <li id="wga" title="Waste Gas Analysis">WGA</li>
+        <li id="aes" title="Air Exchange Survey">AES</li>
+        <li id="toggledarkmode" title="Toggle Dark Mode">ℳ</li>
+        <li id="finalizechecklist" title="Finalize Checklist">✓</li>
+        <li id="reloadpage" class="hide" title="Reload Page (Keep Progress)">↻</li>
+        <li id="downloadpage" title="Download Page">↧</li>
+      </ul>
+    </header>
+    <main>
+      <article>
+        <section>
+          <input class="datetime" type="date" name="date">
+        </section>
+        <section>
+          <h1>Parts Used</h1>
+          <textarea id="partsused" name="partsused" placeholder="Parts and Serial Numbers"></textarea>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
